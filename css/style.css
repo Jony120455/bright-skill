@@ -1,0 +1,283 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* nav section start  */
+
+#nav{
+    z-index: 9;
+}
+
+/* nav section end */
+
+/* banner section start */
+#banner {
+    background: url(../images/banner.webp);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.banner-text{
+    width: 500px;
+    height: 500px;
+}
+.course-btn{
+    border: none;
+    border-radius: 5px;
+}
+.course-btn a{
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #004d7c;
+    transition: .5s all;
+}
+.course-btn a:hover{
+    background-color: #FF9D34;
+}
+/* banner style end  */
+
+
+
+
+/* job cariar section style  */
+
+.job-cariar-c{
+    background-color: #f9f9ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s all;
+
+}
+.job-cariar-details p{
+    color: #969AA3;
+}
+
+.job-cariar-c:hover{
+    background-color: #116599;
+    color: white;
+}
+.job-cariar-c:hover p{
+    color: white;
+}
+.more button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+/* cariar section style end */
+
+/* web section  */
+#web{
+    padding-top: 50px;
+ }
+ .img-over{
+    overflow: hidden;
+ }
+.des-img {
+    height: 250px;
+    width: 100%;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.des-scle {
+    width: 100%;
+    overflow: hidden;
+}
+
+.des-scle:last-child {
+    margin-right: 0px;
+}
+
+.des-scle:hover img {
+    transform: scale(1.2);
+}
+
+.card-title {
+    color: #004d7c;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.card-t:hover h6 {
+    color: #FF9D34;
+}
+
+.book-now {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    transition: all 1s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+.btn-lay {
+    background: #FF9D34;
+    border: none;
+    z-index: 1;
+}
+
+.btn-lay:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #014073;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: all 1s ease;
+}
+
+.btn-lay:hover {
+    color: #fff;
+}
+
+.btn-lay:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.btn-lay:active {
+    top: 2px;
+}
+
+.review i {
+    color: #FF9D34;
+}
+/* web section end */
+
+/* office app section style  */
+#office-app{
+    padding-top: 50px;
+}
+
+#digital-marketing{
+    padding-top: 50px;
+}
+/* office app section style end */
+
+/* soft skill section style  */
+#soft-skill{
+    padding-top: 50px;
+}
+/* soft skill section style end */
+
+/* robot section style  */
+
+#robot{
+    padding-top: 50px;
+}
+
+/* robot section style end */
+
+/* go ahed section style start  */
+
+#ahed{
+    background-color: #FFF0EC;
+}
+.soft-skill-head,.teacher-skill-head,.quiz-skill-head{
+    background-color: white;
+    border-radius: 10px;
+}
+.soft-skill-head:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.teacher-skill-head:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.quiz-skill-head:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.soft-skill-img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.soft-skill-details p{
+    color: #969AA3;
+}
+
+video{
+    width: 70%;
+    border-radius: 10px;
+}
+  
+/* go ahed section style end */
+
+/* student section style  */
+#student{
+    padding-top: 50px;
+}
+.card-head:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img-details img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #FF9D34;
+}
+/* student section style end */
+
+/* footer style start  */
+
+#footer{
+    background-color: #116599;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-first-link img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 8px 12px;
+}
+
+.catagory-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.catagory-list ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    transition: 0.5s all;
+    
+}
+.catagory-list ul li a:hover{
+    color: #FF9D34;
+}
+/* footer style end */
