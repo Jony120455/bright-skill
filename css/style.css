@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 h1,
 h2,
@@ -57,11 +60,8 @@ a {
 .course-btn a:hover{
     background-color: #FF9D34;
 }
+
 /* banner style end  */
-
-
-
-
 /* job cariar section style  */
 
 .job-cariar-c{
@@ -252,10 +252,10 @@ video{
 }
 /* student section style end */
 
-
 /* company section style  */
 #company{
     padding-top: 50px;
+    
 }
 
 /* company section style end */
@@ -267,11 +267,23 @@ video{
     margin-top: 50px;
     padding-bottom: 50px;
 }
-.footer-first-link img{
-    width: 60px;
-    height: 60px;
+.footer-first-link a{
+    text-decoration: none;
+    color: #FF9D34;
+    font-size: 25px;
+    padding: 0 10px;
+    background-color: #014073;
     border-radius: 50%;
-    padding: 8px 12px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    
+}
+.footer-first-link a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .catagory-list ul {
