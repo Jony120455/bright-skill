@@ -42,8 +42,7 @@ a {
     background-size: cover;
     height: 600px;
 }
-.banner-text{
-    width: 500px;
+.banner-text{ 
     height: 500px;
 }
 .course-btn{
